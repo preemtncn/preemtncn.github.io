@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    background-image: url('https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-92045.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    color: deeppink;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+}
+
+/* bar */
+.bar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Dark background for navbar */
+    padding: 10px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.bar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background-color: #ff0095;
+    transition: background-color 0.3s ease;
+}
+
+.bar a:hover {
+    background-color: #000000;
+}
+
+/* Header Title */
+.header {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 20px;
+}
+
+.my-box1, .my-box2, .my-box3 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgb(55, 0, 255);
+}
+
+.my-box1 {
+    background-color: rgb(155, 0, 85);
+}
+
+.my-box2 {
+    text-align: center;
+    background-image: url();
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+.my-box3 {
+    background-color: rgb(155, 0, 85);
+    height: 350px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sss {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.box1, .box2, .box3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: palevioletred;
+}
+
+.box2 {
+    background-color: lightpink;
+}
+
+.box3 {
+    background-color: lightblue;
+}
+
+a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #010c74;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #000000;
+}
+/* PREEM'S PROFILE */
+.a1 {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #0465e494;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+}
+.a1:hover {
+    background-color: #1e1e1e;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
